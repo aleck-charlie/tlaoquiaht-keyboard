@@ -1,0 +1,29 @@
+body {
+    background-color: #4D7B42;
+    width: 300px;
+    margin: auto;
+}
+
+button {
+    background-color: #BADEAE;
+    color: #303030;
+    padding: 0.75rem;
+    margin: .25rem;
+}
+
+p {
+    background-color: #F6F7F7;
+    padding: 1rem;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: row;
+
+}
