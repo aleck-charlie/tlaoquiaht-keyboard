@@ -10,3 +10,5 @@ Allow users to type in English translations alongside Tla-o-qui-aht text
 Allow users to save keywords using local storage
 
 Store library of common conversational phrases
+
+Make available offline for users without internet connection
