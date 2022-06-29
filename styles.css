@@ -1,43 +1,46 @@
 * {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
-  
 }
 
 body {
-  background-color: #4d7b42;
-  width: 300px;
+  background-color: #2d3319;
   margin: auto;
+  padding: 5rem;
 }
 
 button {
-  background-color: #badeae;
-  border-radius: .5rem;
+  background-color: #9fd8cb;
+  border-radius: 0.5rem;
   border-style: none;
   color: #303030;
   font-size: 1.25rem;
   padding: 0.75rem;
-  margin: .25rem;
+  margin: 0.25rem;
 }
 
 .your-text {
   background-color: #f6f7f7;
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-size: 1.25rem;
+  width: 75%;
 }
 
 .text {
   display: flex;
-  justify-content: center;
-  padding-top: 5rem;
+  align-items: center;
 }
 
 .copy-btn {
-    margin: auto;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .keyboard {
   display: flex;
   flex-wrap: wrap;
+  background-color: #517664;
+  border-radius: 0.5rem;
+  padding: 1rem;
 }

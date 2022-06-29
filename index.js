@@ -45,18 +45,30 @@ const alphaKeys = [
   "ʕ",
 ];
 const numKeys = "1234567890";
-const keyboard = document.getElementById("keyboard")
-// const spacebar
+const keyboard = document.querySelector(".keyboard");
 
 // render keyboard
-// loop thru keys and create dynamic buttons
 function printKeys() {
-  for (var i = 0; i < alphaKeys.length; i++) {
-    var keys = document.createElement("button");
+  for (let i = 0; i < alphaKeys.length; i++) {
+    let keys = document.createElement("button");
     keys.innerHTML = alphaKeys[i];
+    keys.setAttribute("data-character", alphaKeys[i]);
     keyboard.appendChild(keys);
   }
 }
 
 //onClick event, add text in text field
-//before and after effects to show key has been pressed
+const input = document.getElementById('input')
+
+function typeKeys(character) {
+  input.value += character;
+}
+
+keyboard.addEventListener("click", function(e){
+  let target = e.target;
+  if(target.getAttribute("data-character")){
+    typeKeys(target.getAttribute("data-character"))
+  }
+})
+
+printKeys()
