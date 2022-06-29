@@ -1,4 +1,4 @@
-const keys = [
+const alphaKeys = [
   "a",
   "aa",
   "c",
@@ -45,3 +45,18 @@ const keys = [
   "ʕ",
 ];
 const numKeys = "1234567890";
+const keyboard = document.getElementById("keyboard")
+// const spacebar
+
+// render keyboard
+// loop thru keys and create dynamic buttons
+function printKeys() {
+  for (var i = 0; i < alphaKeys.length; i++) {
+    var keys = document.createElement("button");
+    keys.innerHTML = alphaKeys[i];
+    keyboard.appendChild(keys);
+  }
+}
+
+//onClick event, add text in text field
+//before and after effects to show key has been pressed

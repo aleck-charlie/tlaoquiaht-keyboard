@@ -5,10 +5,11 @@ By clicking on-screen buttons, users can quickly create and copy text from the i
 
 ## Future features
 
-Allow users to type in English translations alongside Tla-o-qui-aht text
+Allow users to type in English keys from keyboard alongside Tla-o-qui-aht text
 
 Allow users to save keywords using local storage
 
 Store library of common conversational phrases
 
 Make available offline for users without internet connection
+

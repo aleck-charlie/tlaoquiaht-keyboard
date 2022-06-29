@@ -39,5 +39,5 @@ button {
 
 .keyboard {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
