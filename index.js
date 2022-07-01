@@ -11,9 +11,10 @@ const alphaKeys = [
   "i",
   "ii",
   "k",
-  "kʷ",
   "k̓",
+  "kʷ",
   "k̓ʷ",
+  "l",
   "ł",
   "ƛ",
   "ƛ̓",
@@ -44,7 +45,6 @@ const alphaKeys = [
   "Ɂ",
   "ʕ",
 ];
-const numKeys = "1234567890";
 const keyboard = document.querySelector(".keyboard");
 
 // render keyboard
@@ -70,5 +70,20 @@ keyboard.addEventListener("click", function(e){
     typeKeys(target.getAttribute("data-character"))
   }
 })
+
+function copyText() {
+  let copyText = document.getElementById("input");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+
+  let tooltip = document.getElementById("tooltip");
+  tooltip.innerHTML = "Copied!"
+}
+
+function toolTip() {
+  let tooltip = document.getElementById("tooltip");
+  tooltip.innerHTML = "Copy to clipboard"
+}
 
 printKeys()
