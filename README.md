@@ -18,3 +18,4 @@ The following features are currently being considered for future updates
 ## Contact
 
 Questions, comments or suggestions can be sent to me at [aleckcharlie@gmail.com](mailto:aleckcharlie@gmail.com)
+Find more of my projects and illustration work at [charlie3.herokuapp.com](charlie3.herokuapp.com)
