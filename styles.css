@@ -11,20 +11,30 @@ body {
 
 .about {
   display: flex;
-  align-items: center;
-  color: #D3DFC3;
+  flex-direction: column;
+  color: #d3dfc3;
   font-size: 1.15rem;
   width: 45rem;
   margin: auto;
-  margin-top: .75rem;
-  margin-bottom: .75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+a {
+  text-decoration: underline;
+  color: #d3dfc3;
 }
 
 .text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .your-text {
@@ -32,13 +42,12 @@ body {
   padding: 1rem;
   border-radius: 0.5rem;
   font-size: 1.25rem;
-  width: 60%;
+  width: 400px;
   margin: auto;
 }
 
-
 button {
-  background-color: #D3DFC3;
+  background-color: #d3dfc3;
   border-radius: 0.5rem;
   border-style: none;
   color: #303030;
@@ -55,10 +64,8 @@ button:hover {
 }
 
 button:active {
-  background-color: #4C756E;
+  background-color: #4c756e;
 }
-
-
 
 .form-btn {
   display: flex;
@@ -66,8 +73,8 @@ button:active {
 }
 
 .copy-btn {
-    margin: 0.75rem;
-    padding: 0.75rem 4rem 0.75rem 4rem;
+  margin: 0.75rem;
+  padding: 0.75rem 4rem 0.75rem 4rem;
 }
 
 .tooltip {
@@ -108,20 +115,18 @@ button:active {
   opacity: 1;
 }
 
-
 .keyboard {
   display: grid;
   grid-template-columns: repeat(11, minmax(2rem, 5rem));
   grid-gap: 2px;
   margin: auto;
   max-width: 800px;
-  background-color: #4C756E;
+  background-color: #4c756e;
   border-radius: 0.5rem;
   padding: 1rem;
 }
 
 @media (max-width: 600px) {
-
   .about {
     width: 75%;
   }
@@ -138,12 +143,12 @@ button:active {
   }
 
   .copy-btn {
-    margin: .5rem;
-    padding: .75rem 3rem .75rem;
-}
+    margin: 0.5rem;
+    padding: 0.75rem 3rem 0.75rem;
+  }
 
   .keyboard {
-    grid-template-columns: repeat(5, 1fr)
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
