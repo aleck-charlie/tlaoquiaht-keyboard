@@ -14,6 +14,7 @@ The following features are currently being considered for future updates
 
 - Make available offline for users without internet connection
 - Easy to remember domain name
+- Seperate row for lesser used characters found in other Nuu-chah-nulth dialects
 
 ## Contact
 
