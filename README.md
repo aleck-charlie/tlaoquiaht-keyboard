@@ -6,6 +6,8 @@ This virtual keyboard project was built to support Tla-o-qui-aht First Nations l
 
 Built using Javascript, HTML, and CSS. 
 
+Deployed on Github Pages at [https://aleck-charlie.github.io/tlaoquiaht-keyboard/](https://aleck-charlie.github.io/tlaoquiaht-keyboard/)
+
 ## Future features
 
 The following features are currently being considered for future updates
