@@ -86,4 +86,8 @@ function toolTip() {
   tooltip.innerHTML = "Copy to clipboard"
 }
 
+function clearForm(){
+  let clearText = document.getElementById("input")
+  clearText.value="";
+}
 printKeys()
