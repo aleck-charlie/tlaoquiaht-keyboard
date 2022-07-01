@@ -16,8 +16,9 @@
 
   <body>
     <div class="text">
-      <input type="text" class="your-text" id="input" placeholder="Your text here.."></input>
+      <input type="text" class="your-text" id="input" placeholder="Type or click buttons to see your text here.."></input>
       
+      <div class="form-btn">
       <div class="tooltip">
       <button class="copy-btn" onclick="copyText()" onmouseout="toolTip()">
         <span class="tooltiptext" id="tooltip">Copy to clipboard</span>
@@ -26,6 +27,8 @@
     </div>
       <button class="copy-btn" onclick="clearForm()">Clear</button>
     </div>
+  </div>
+
     <div class="keyboard" id="keyboard"></div>
 
     <script src="index.js"></script>
