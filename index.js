@@ -5,8 +5,7 @@ const alphaKeys = [
   "c̓",
   "č",
   "č́",
-  "e",
-  "ee",
+
   "h",
   "ḥ",
   "i",
@@ -22,8 +21,6 @@ const alphaKeys = [
   "m̓",
   "n",
   "n̓",
-  "o",
-  "oo",
   "p",
   "p̓",
   "q",
@@ -44,6 +41,10 @@ const alphaKeys = [
   "y̓",
   "Ɂ",
   "ʕ",
+  "e",
+  "ee",
+  "o",
+  "oo"
 ];
 const keyboard = document.querySelector(".keyboard");
 
