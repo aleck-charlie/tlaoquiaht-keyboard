@@ -12,8 +12,8 @@ The following features are currently being considered for future updates
 
 - Make available offline for users without internet connection
 - Capslock function to capitalize letters in app
-
-
+- Uniform font weight across special and non-special characters (currently some are bold and some are not)
+- Easy to remember domain name
 
 ## Contact
 
