@@ -8,11 +8,13 @@ Built using Javascript, HTML, and CSS.
 
 ## Future features
 
-The following features are currently being developed for future updates
+The following features are currently being considered for future updates
 
 - Make available offline for users without internet connection
+- Capslock function to capitalize letters in app
+
 
 
 ## Contact
 
-Reach out to me at [aleckcharlie@gmail.com](mailto:aleckcharlie@gmail.com)
+Questions, comments or suggestions can be sent to me at [aleckcharlie@gmail.com](mailto:aleckcharlie@gmail.com)
