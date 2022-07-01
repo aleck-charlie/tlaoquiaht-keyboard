@@ -1,6 +1,6 @@
 # Tla-o-qui-aht Browser Keyboard
 
-![Screenshot of virtual keyboard](https://res.cloudinary.com/dvhx34ziw/image/upload/v1656652193/keyboard_complete_tozrzt.jpg)
+![Screenshot of virtual keyboard](https://res.cloudinary.com/dvhx34ziw/image/upload/v1656652761/keyboardcomplete_simple_ylmoso.jpg)
 
 This virtual keyboard project was built to support Tla-o-qui-aht First Nations language learners by giving quick access to the unique phonetic and unicode characters found in our written alphabet. Users can type or click buttons to enter text to the input field, and copy to clipboard using the copy button. The keyboard currently hosts the full Tla-o-qui-aht alphabet, and will continue to be updated to fit the needs of learners.
 
